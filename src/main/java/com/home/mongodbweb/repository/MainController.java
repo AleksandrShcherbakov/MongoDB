@@ -101,7 +101,7 @@ public class MainController {
     @RequestMapping("/deleteAllEmployee")
     public String deledeAll(){
         employeeRepository.deleteAll();
-        return home() ;
+        return home();
     }
 
 
